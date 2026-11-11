@@ -1,6 +1,6 @@
 {
  "format": 1,
- "updated": "2026-11-11T06:38:18.424Z",
+ "updated": "2026-11-11T22:19:54.750Z",
  "plugins": {
   "hello-plugin": {
    "versions": {
@@ -19,6 +19,24 @@
    "name": "Hello",
    "description": "A tiny example: greets you and counts how many times it was used.",
    "author": "TurboFex"
+  },
+  "test-plugin": {
+   "versions": {
+    "1.0.0": {
+     "manifestSha": "e4643124e6954944d99b21d6c885ff1524ea190faf6d14c8e1142a3efca5e7f6",
+     "entrySha": "600281ce3a01f14219636403c5be285d7fe06e291241feadd2a1b5a2339a50ea",
+     "entry": "index.js",
+     "permissions": [
+      "chat.send",
+      "storage"
+     ],
+     "domains": [],
+     "publishedAt": "2026-11-11T22:19:54.745Z"
+    }
+   },
+   "name": "Test Plugin",
+   "description": "A tiny test: answers with a message and counts how many times it was used.",
+   "author": "nels0nfx"
   }
  },
  "revoked": []
