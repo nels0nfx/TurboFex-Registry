@@ -1,0 +1,25 @@
+{
+ "format": 1,
+ "updated": "2026-11-11T06:38:18.424Z",
+ "plugins": {
+  "hello-plugin": {
+   "versions": {
+    "1.0.0": {
+     "manifestSha": "0dc7e13e0417635b61a597178ba5ef9562e5fbc84c01db335c15941dcbe29257",
+     "entrySha": "6dda34a7ef001452c8650634b8bd6a016a7e1a452a12abddee5cb1198e63df7a",
+     "entry": "index.js",
+     "permissions": [
+      "chat.send",
+      "storage"
+     ],
+     "domains": [],
+     "publishedAt": "2026-11-11T06:38:18.423Z"
+    }
+   },
+   "name": "Hello",
+   "description": "A tiny example: greets you and counts how many times it was used.",
+   "author": "TurboFex"
+  }
+ },
+ "revoked": []
+}
