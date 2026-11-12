@@ -1,6 +1,6 @@
 {
  "format": 1,
- "updated": "2026-11-12T09:12:37.308Z",
+ "updated": "2026-11-12T09:33:44.354Z",
  "plugins": {
   "hello-plugin": {
    "versions": {
@@ -33,6 +33,18 @@
      ],
      "domains": [],
      "publishedAt": "2026-11-12T09:12:37.300Z"
+    },
+    "1.0.2": {
+     "manifestSha": "ebd034e8e8adeffb45afa1892a5d1e3aaceb31f0bc4886e084009a5ab08fdbce",
+     "entrySha": "d12f0e3b8d55bf4d288a83230c10a2b23714f1f295c3d6957ebf0c633cecab6e",
+     "entry": "index.js",
+     "permissions": [
+      "chat.send",
+      "storage",
+      "events.message"
+     ],
+     "domains": [],
+     "publishedAt": "2026-11-12T09:33:44.328Z"
     }
    },
    "name": "MentionMaster",
