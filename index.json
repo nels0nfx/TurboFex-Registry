@@ -1,6 +1,6 @@
 {
  "format": 1,
- "updated": "2026-11-12T09:33:44.354Z",
+ "updated": "2026-11-12T10:04:53.854Z",
  "plugins": {
   "hello-plugin": {
    "versions": {
@@ -70,5 +70,12 @@
    "author": "nels0nfx"
   }
  },
- "revoked": []
+ "revoked": [
+  {
+   "id": "test-plugin",
+   "version": "1.0.0",
+   "reason": "Not needed",
+   "at": "2026-11-12T10:04:53.820Z"
+  }
+ ]
 }

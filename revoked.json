@@ -1,1 +1,8 @@
-[]
+[
+ {
+  "id": "test-plugin",
+  "version": "1.0.0",
+  "reason": "Not needed",
+  "at": "2026-11-12T10:04:53.820Z"
+ }
+]
