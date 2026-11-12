@@ -1,6 +1,6 @@
 {
  "format": 1,
- "updated": "2026-11-11T22:19:54.750Z",
+ "updated": "2026-11-12T09:12:37.308Z",
  "plugins": {
   "hello-plugin": {
    "versions": {
@@ -19,6 +19,25 @@
    "name": "Hello",
    "description": "A tiny example: greets you and counts how many times it was used.",
    "author": "TurboFex"
+  },
+  "mentionmaster": {
+   "versions": {
+    "1.0.0": {
+     "manifestSha": "2cf4140b8864e61dcb34a3aa1acc87d68b885ba56942949f8e9cb21a97513f6d",
+     "entrySha": "2c075ba16527e1f50cca3aa2ebc2bb6f49da90277868e4657edf6fb5d9d33c12",
+     "entry": "index.js",
+     "permissions": [
+      "chat.send",
+      "storage",
+      "events.message"
+     ],
+     "domains": [],
+     "publishedAt": "2026-11-12T09:12:37.300Z"
+    }
+   },
+   "name": "MentionMaster",
+   "description": "Automatically replies with your custom message when someone mentions the configured owner in a group.",
+   "author": "TurboFex Community"
   },
   "test-plugin": {
    "versions": {
